@@ -1,0 +1,145 @@
+\cvsection{Course Projects}
+
+\begin{cventries}
+  \cventry
+  {Information Retrieval, under Prof. Arnab Bhattacharya}
+  {Relevant Information Retrieval from Text Documents}
+  {\texttt{\href{https://github.com/sunil-dhaka/IR-Project}{\faGithub{} sunil-dhaka/IR-Project}}}
+  {Jan '22 - Apr '22}
+  {
+    \begin{cvitems}
+    \item Implemented various extractive text summarization algorithms like text-rank, Latent semantic analysis, and abstractive self supervised seq2seq architectures like Google PEGASUS, t5-small
+    \item Over 230k news articles from both Hindi and English were included in the Text Corpora, along with their own human-written summaries
+    \item Cleaned and preprocessed text corpora using a varity of NLP techniques like noise removal, tokenization, lowercasing, stemming, lemmetization, stop word removal, and object strandardization
+    \item Used ROUGE-N score to evaluate accuracy of the algorithm summarized text against human text summaries for documents in the dataset
+    \item Tested out all the algorithms on both Hindi and English language datasets and achieved SOTA f1-scores on our datasets for both abstractive algorithms after fine tuning
+    \item Achieved SOTA f1-scores on our datasets for both abstractive algorithms after fine tuning
+    \item Worked in a 5 person team to do all the research, presentation and implementation work
+    \item Created a Flask web application for users to interact with the algorithms and get summaries of articles or blogs in Hindi and English languages 
+    \end{cvitems}
+  }
+  
+  \cventry
+  {Linear and Non-Linear Models, under Prof. Satya Prakash Singh}
+  {Influential Observations in Linear Regression}
+  {\texttt{\href{https://github.com/sunil-dhaka/influential-points-in-lr}{\faGithub{} sunil-dhaka/influential-points}}}
+  {Aug '21 - Nov '21}
+  {
+    \begin{cvitems}
+    \item Conducted research on and delivered a class presentation on Professor Dennis Cook's paper "Influential Points in Linear Regression" 
+    \item Implemented influential observation detection measures like Cooks distance, studentized residual, and deleted studentized residual from the paper using R
+    \item Validated the discovered outlier points by removing them one at a time and observing the impact on residual plots 
+    \end{cvitems}
+  }
+
+  \cventry
+  {Data Mining, under Prof. Arnab Bhattacharya}
+  {Indian Agriculture Data Mining}
+  {\texttt{\href{https://github.com/sunil-dhaka/Agriculture-Analysis-on-Indian-States}{\faGithub{} sunil-dhaka/Agriculture-Analysis}}}
+  {Aug '21 - Nov '21}
+  {
+    \begin{cvitems}
+    \item Analysed seasonal Indian crop data for last 20 years and extract key insights into crop production and crop type across states
+    \item Collected around 2.5 lakh data points from data-gov servers using multiple API calls
+    \item Cleaned and processed the data using a variety of data cleaning techniques to get robust dataset for subsequent steps
+    \item Developed new categorical variables of zones and crop to make analysis more understandable and comparative  
+    \item Used geopandas library to discover the geographical situation of Indian agriculture on a zone-by-zone and crop-by-crop basis
+    \item Unearthed some unexpected information regarding the Indian agricultural state
+    \end{cvitems}
+  }
+  
+  \cventry
+  {Advanced Statistical Methods, under Prof. Shankar Prawesh}
+  {Racial Disparity in COVID-19 Vaccination in US}
+  {\texttt{\href{https://github.com/sunil-dhaka/ime692-project}{\faGithub{} sunil-dhaka/covid-disparity}}}
+  {Aug '21 - Nov '21}
+  {
+    \begin{cvitems}
+    \item Analysed vaccination rates for covid-19 by race in US counties, along with their association with socioeconomic status and other factors, using a number of statistical techniques
+    \item Transformed \& pre-processed data by z-score normalization and Principal component analysis(PCA) dimension reduction of feature matrix
+    \item Implemented variety of regression algorithms like Multiple Linear Regression(MLR), Lasso Regression, Ridge Regression , Elastinet Regression, Support Vector Regression(SVR), Random Forest
+    \item Fine tuned the hyper parameters of these algorithms using train and test MSE as metric of measure
+    \item Found Covid-19 immunisation rates (1st dose) in US counties to be significantly affected by socioeconomic status and political ideology
+    \end{cvitems}
+  }
+
+  \cventry
+  {Monetary Economics, under Prof. Sukumar Vellakkal}
+  {Critical Comparative Appraisal of Monetary Policy Tools and Strategies}
+  {\texttt{\href{https://github.com/sunil-dhaka/monetary-econ-essay}{\faGithub{} sunil-dhaka/monetary-essay}}}
+  {Aug '21 - Nov '21}
+  {
+    \begin{cvitems}
+      \item Structural comparison of monetary authorities in India and the United States
+      \item Monetary policy comparison between these countries based on tools like reserve requirements, discount rate, and open market operations
+      \item Critical comparison of various monetary policy strategies these countries have used over the last few decades to control economic variables like unemployment rate, inflation rate, interest rate, GDP, money supply etc
+    \end{cvitems}
+  }
+
+  \cventry
+  {MCMC, under Prof. Dootika Vats}
+  {Repelling–Attracting Metropolis Algorithm}
+  {\texttt{\href{https://github.com/sunil-dhaka/RAM}{\faGithub{} sunil-dhaka/RAM}}}
+  {Jan '21 - Apr '21}
+  {
+    \begin{cvitems}
+    \item Implemented tweaked version of MH algorithm called Repelling–Attracting Metropolis Algorithm(RAM) for multi modality
+    \item Used Auxiliary Variable approach to derive the steps of algorithm
+    \item Demonstrated how the RAM model outperforms the MH sampler, by generating MCMC samples for real life numerical examples like sensor network localization, strong lens time delay estimation
+    \item RAM provided better simulations for multimodal distributions, as seen by ACF plots, trace plots, acceptance rate and downhill-uphill average proposal numbers of generated samples
+    \end{cvitems}
+  }
+
+  \cventry
+  {Time Series Analysis, under Prof. Amit Mitra}
+  {Modelling and Forecasting of Monthly Temperature Time Series Data}
+  {\texttt{\href{https://github.com/sunil-dhaka/time-series-model}{\faGithub{} sunil-dhaka/time-series-model}}}
+  {Sep '20 - Nov '20}
+  {
+    \begin{cvitems}
+      \item Modeled a seasonal ARIMA model to forecast next years temperatures based on historical data 
+      \item Obtained monthly average temperatures for India during the past 117 years in Celsius from data-gov website
+      \item Checked data stationarity through the augmented Dickey-Fuller test, and performed seasonal differencing to ensure stationary time series
+      \item Optimized the model parameters using Box Jenkins Method for forecasting purposes
+      \item Performed residual analysis and information criterion tests to check model adequacy on the dataset
+      \item Yielded absolute mean percentage error(MAE) of 2.2\% on  test data for optimized S-ARIMA model  
+    \end{cvitems}
+  }
+
+  \cventry
+  {Statistical Simulation, under Prof. Dootika Vats}
+  {Expectation-Maximization \& Metropolis-Hastings Algorithms}
+  {\texttt{\href{https://github.com/sunil-dhaka/}{\faGithub{} sunil-dhaka}}}
+  {Aug '19 - Nov '19}
+  {
+    \begin{cvitems}
+      \item Developed expectation-maximization (EM) algorithms to fit multivariate Gaussian mixture models for latent variable 
+	    \item Cross Validated the model on test data to get optimum values of hyper parameters
+	    \item Used MH algorithm for implementing the Markov Chain Monte Carlo(MCMC) method in Bayesian logistic regression model
+    \end{cvitems}
+  }
+
+  \cventry
+  {Manufacturing Processes II, under Prof. Shantanu Bhattacharya}
+  {Mechanized Paper Cutter with Counter}
+  {\texttt{\href{https://github.com/sunil-dhaka/}{\faGithub{} sunil-dhaka}}}
+  {Jan '19 - Apr '19}
+  {
+    \begin{cvitems}
+      \item Used Fusion 360 Software to design a mechanical paper cutter with a counter mechanism
+      \item Developed the suggested prototype with a team of 7 people
+    \end{cvitems}
+  }
+
+  \cventry
+  {Manufacturing Processes I, under Prof. Sudhanshu S. Shekhar}
+  {Simple Rube Goldberg Machine}
+  {\texttt{\href{https://github.com/sunil-dhaka/}{\faGithub{} sunil-dhaka}}}
+  {Aug '18 - Nov '18}
+  {
+    \begin{cvitems}
+      \item Constructed a 40x40x40 cm simple Rube Goldberg contraption employing fundamental mechanical techniques such as welding, moulding, etc. in the Mechanical lab
+    \end{cvitems}
+  }
+\end{cventries}
+\vspace{-2mm}
